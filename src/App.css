@@ -5,7 +5,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background: url(Images/mario-bg.jpg);
+  background: url(/Images/mario-bg.jpg);
   background-size: cover;
   color: white;
 }
@@ -20,7 +20,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  background: url(Images/soil.png);
+  background: url(/Images/soil.png);
   background-size: cover;
   border: 3px solid white;
   border-radius: 25px;
@@ -29,7 +29,7 @@ body {
 #board div {
   width: 180px;
   height: 180px;
-  background-image: url(Images/pipe.png);
+  background-image: url(/Images/pipe.png);
   background-size: cover;
   position: relative;
   cursor: pointer;
