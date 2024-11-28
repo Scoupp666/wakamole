@@ -58,10 +58,10 @@ const App = () => {
         {Array.from({ length: 9 }).map((_, index) => (
           <div key={index} onClick={() => handleTileClick(index)}>
             {index === tiles.mole && (
-              <img src="./Images/monty-mole.png" alt="Mole" />
+              <img src="Images\monty-mole.png" alt="Mole" />
             )}
             {index === tiles.plant && (
-              <img src="./Images/piranha-plant.png" alt="Plant" />
+              <img src="Images\piranha-plant.png" alt="Plant" />
             )}
           </div>
         ))}
